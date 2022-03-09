@@ -1,6 +1,7 @@
 body {
     background: black;
     color: white;
+    padding-top: 54px !important;
 }
 
 #hero-section {
@@ -13,7 +14,7 @@ body {
 .avatar {
     border: 5px solid white;
     border-radius: 50%;
-    width: 20vw;
+    width: clamp(150px, 20vw, 250px);
 }
 
 .devicon, .contact-icon {
