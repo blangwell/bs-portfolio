@@ -1,0 +1,37 @@
+body {
+    background: black;
+    color: white;
+}
+
+#hero-section {
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url('assets/controllers.jpg') no-repeat fixed center/cover; 
+    padding: 20vh 0;
+    color: white;
+}
+
+.avatar {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 20vw;
+}
+
+.devicon, .contact-icon {
+    font-size: clamp(40px, 5vw, 100px);
+    transition: .5s ease-in-out;
+}
+
+.contact-icon:hover {
+    color: pink;
+    cursor: pointer;
+}
+
+.carousel-item {
+    overflow: hidden;
+    max-height: 500px;
+}
+
+footer {
+    margin: 10px 0 0;
+    padding: 10px;
+}
